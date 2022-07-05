@@ -9,5 +9,5 @@ Pod::Spec.new do |s|
     s.vendored_frameworks   = "ElectrodeContainer.xcframework"
     s.platform              = :ios
     s.swift_version         = "5.0"
-    s.ios.deployment_target = "11.0"
+    s.ios.deployment_target = "14.4"
 end
