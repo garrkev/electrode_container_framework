@@ -127,7 +127,7 @@
 		</data>
 		<key>MiniApp.jsbundle</key>
 		<data>
-		03s+Dr7v9/jrTWJxYCutUV1+K2I=
+		jfwj+gW9K6CY1yQ8vvjLDZxFL8E=
 		</data>
 		<key>Modules/ElectrodeContainer.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -139,7 +139,7 @@
 		</data>
 		<key>Modules/ElectrodeContainer.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		Rvtr/eKdvKerJtke9WHxFJCsCsc=
+		GRlYSe2HWzpteN9NlwmReSKkSuY=
 		</data>
 		<key>Modules/ElectrodeContainer.swiftmodule/x86_64.swiftdoc</key>
 		<data>
@@ -151,7 +151,7 @@
 		</data>
 		<key>Modules/ElectrodeContainer.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		Rvtr/eKdvKerJtke9WHxFJCsCsc=
+		GRlYSe2HWzpteN9NlwmReSKkSuY=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -366,7 +366,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			sh7GLqoPZ0enuSaS8yEAeMXxj35yXqS5TomtzMGphTE=
+			N9s5ylAbq0KhcPQIBIjvu54AuE4J2eXl0jqjUIgFrXU=
 			</data>
 		</dict>
 		<key>Modules/ElectrodeContainer.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -387,7 +387,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Wrbza4m6YnC6ws7nbbkFmaGirFF7LO82rP85pUNDZ74=
+			8OSrLOm01DBpIoruf7qSqdP2VIY8mKC1+qM8YOhXuAw=
 			</data>
 		</dict>
 		<key>Modules/ElectrodeContainer.swiftmodule/x86_64.swiftdoc</key>
@@ -408,7 +408,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Wrbza4m6YnC6ws7nbbkFmaGirFF7LO82rP85pUNDZ74=
+			8OSrLOm01DBpIoruf7qSqdP2VIY8mKC1+qM8YOhXuAw=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
