@@ -210,13 +210,6 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 # pragma pop_macro("any")
 #endif
 
-@class NSDictionary;
-
-SWIFT_PROTOCOL("_TtP18ElectrodeContainer10Bridgeable_")
-@protocol Bridgeable
-- (NSDictionary * _Nonnull)toDictionary SWIFT_WARN_UNUSED_RESULT;
-@end
-
 
 SWIFT_PROTOCOL("_TtP18ElectrodeContainer21ENMiniAppDataProvider_")
 @protocol ENMiniAppDataProvider
@@ -254,6 +247,21 @@ SWIFT_CLASS("_TtC18ElectrodeContainer26ENBaseNavigationController")
 - (nonnull instancetype)initWithRootViewController:(UIViewController * _Nonnull)rootViewController SWIFT_UNAVAILABLE;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil SWIFT_UNAVAILABLE;
 @end
+
+
+SWIFT_CLASS("_TtC18ElectrodeContainer40BilditbannersMiniappNavigationController")
+@interface BilditbannersMiniappNavigationController : ENBaseNavigationController
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class NSDictionary;
+
+SWIFT_PROTOCOL("_TtP18ElectrodeContainer10Bridgeable_")
+@protocol Bridgeable
+- (NSDictionary * _Nonnull)toDictionary SWIFT_WARN_UNUSED_RESULT;
+@end
+
 
 
 SWIFT_CLASS("_TtC18ElectrodeContainer14ENCoreDelegate")

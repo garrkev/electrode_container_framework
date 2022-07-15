@@ -226,8 +226,8 @@ public typealias BackToRoute = (Swift.String, [Swift.AnyHashable : Any]) -> Swif
   @objc override dynamic open func viewDidAppear(_ animated: Swift.Bool)
   @objc override dynamic open func viewWillDisappear(_ animated: Swift.Bool)
   @objc override dynamic open func viewDidDisappear(_ animated: Swift.Bool)
-  @objc deinit
   @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @objc deinit
 }
 @objc @_inheritsConvenienceInitializers open class ElectrodeObject : ObjectiveC.NSObject {
   required public init(dictionary _: [Swift.AnyHashable : Any])
@@ -289,6 +289,12 @@ open class MiniAppsConfig {
   public init()
   final public let miniApps: [Swift.String]
   @objc deinit
+}
+@objc @_inheritsConvenienceInitializers open class BilditbannersMiniappNavigationController : ElectrodeContainer.ENBaseNavigationController {
+  override open func getRootComponentName() -> Swift.String
+  @objc deinit
+  @objc override dynamic public init()
+  @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
 }
 @objc @_inheritsConvenienceInitializers open class ElectrodetestMiniappNavigationController : ElectrodeContainer.ENBaseNavigationController {
   override open func getRootComponentName() -> Swift.String
